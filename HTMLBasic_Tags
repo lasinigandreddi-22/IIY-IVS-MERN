@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Working of Lists - Aditya University Example</title> 
+</head> 
+<body> 
+<h1>Aditya University - Departments & Courses</h1> 
+  <!-- Ordered List --> 
+    <h2>1. Main Schools in Aditya University (Ordered List)</h2> 
+    <ol> 
+        <li>School of Engineering</li> 
+        <li>School of Pharmacy</li> 
+        <li>School of Business</li> 
+    </ol> 
+    <!-- Unordered List --> 
+    <h2>2. Schools (Unordered List)</h2> 
+    <ul> 
+        <li>School of Engineering</li> 
+        <li>School of Pharmacy</li> 
+        <li>School of Business</li> 
+    </ul> 
+ 
+    <!-- Nested List --> 
+    <h2>3. School of Engineering with Branches (Nested List)</h2> 
+    <ul> 
+        <li>School of Engineering 
+            <ul> 
+                <li>AI & ML</li> 
+                <li>Agricultural Engineering</li> 
+                <li>Civil Engineering</li> 
+                <li>Computer Science Engineering (CSE)</li> 
+                <li>Electronics & Communication Engineering (ECE)</li> 
+                <li>Electrical & Electronics Engineering (EEE)</li> 
+                <li>Mechanical Engineering (MECH)</li> 
+                <li>Mining Engineering</li> 
+                <li>Petroleum Engineering</li> 
+            </ul> 
+ <!-- Ordered List inside Unordered List --> 
+    <h2>4. AI & ML Branch with Sections (Ordered List inside Unordered List)</h2> 
+    <ul> 
+        <li>AI & ML Branchs 
+            <ol> 
+                <li>Section 1</li> 
+                <li>Section 2</li> 
+                <li>Section 3</li> 
+                <li>Section 4</li> 
+                <li>Section 5</li> 
+                <li>Section 6</li> 
+                <li>Section 7</li> 
+                <li>Section 8</li> 
+            </ol> 
+        </li> 
+    </ul> 
+    <!-- Definition List --> 
+    <h2>5. Definition List of Schools</h2> 
+    <dl> 
+        <dt>School of Engineering</dt> 
+        <dd>Offers various engineering programs such as CSE, ECE, EEE, Mech, Civil, AI&ML, etc.</dd> 
+        <dt>School of Pharmacy</dt> 
+        <dd>Provides courses related to pharmaceutical sciences.</dd> 
+        <dt>School of Business</dt> 
+        <dd>Offers BBA, MBA, and other business-related programs.</dd> 
+    </dl> 
+</body> 
+</html>
+        </li> 
+    </ul>
