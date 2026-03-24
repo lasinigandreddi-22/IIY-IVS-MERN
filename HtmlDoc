@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="utf-8" /> 
+  <meta name="viewport" content="width=device-width,initial-scale=1" /> 
+  <title>Images linking to profiles</title> 
+  <style> 
+    /* small style to align images and add spacing */ 
+    .container { 
+      display: flex; 
+      gap: 24px; 
+      align-items: center; 
+      padding: 24px; 
+      font-family: Arial, sans-serif; 
+    } 
+    .profile {
+ text-align: center; 
+      width: 160px; /* container width for each profile card */ 
+    } 
+    .profile img { 
+      display: block; 
+      border-radius: 8px; 
+      object-fit: cover; /* keeps image aspect inside given width/height */ 
+      width: 150px;  /* required width */ 
+      height: 150px; /* required height */ 
+      cursor: pointer; 
+      box-shadow: 0 2px 6px rgba(0,0,0,0.12); 
+    } 
+    .caption { 
+      margin-top: 8px; 
+      font-size: 14px; 
+    } 
+  </style> 
+</head> 
+  <div class="container"> 
+    <!-- YOUR PROFILE --> 
+    <div class="profile"> 
+      <!-- Replace href with your profile URL and src with your image path/URL --> 
+      <a href="https://example.com/your-profile" target="_blank" rel="noopener noreferrer" title="Go 
+to my profile"> 
+        <img src="Male.png" alt="Your Name" /> 
+      </a> 
+      <div class="caption">Your Name</div> 
+    </div>
+ <!-- FRIEND'S PROFILE --> 
+    <div class="profile"> 
+      <!-- Replace href with friend's profile URL and src with friend's image path/URL --> 
+      <a href="https://example.com/friend-profile" target="_blank" rel="noopener noreferrer" title="Go 
+to friend's profile"> 
+        <img src="female.jpg" alt="Friend's Name" /> 
+      </a> 
+      <div class="caption">Friend's Name</div> 
+    </div> 
+  </div> 
+</body> 
+</html>
+<body> 
